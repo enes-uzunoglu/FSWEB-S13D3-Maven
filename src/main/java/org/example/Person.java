@@ -3,7 +3,7 @@ package org.example;
 import org.w3c.dom.ls.LSOutput;
 
 public class Person {
-    private String firsName;
+    private String firstName;
     private String lastName;
     private int age;
     private boolean drivingLicence;
@@ -11,13 +11,13 @@ public class Person {
     private double salary;
 
     public Person(String firsName,String lastName,int age){
-        this.firsName = firsName;
+        this.firstName = firsName;
         this.lastName = lastName;
         this.age = age;
     }
 
     public Person(String firsName, String lastName, int age, boolean drivingLicence, Gender gender, double salary) {
-        this.firsName = firsName;
+        this.firstName = firsName;
         this.lastName = lastName;
         this.age = age;
         this.drivingLicence = drivingLicence;
@@ -25,8 +25,8 @@ public class Person {
         this.salary = salary;
     }
 
-    public String getFirsName() {
-        return firsName;
+    public String getFirstName() {
+        return firstName;
     }
 
     public String getLastName() {
@@ -44,7 +44,7 @@ public class Person {
     @Override
     public String toString() {
         return "Person{" +
-                "firsName='" + firsName + '\'' +
+                "firsName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
                 ", age=" + age +
                 ", drivingLicence=" + drivingLicence +
