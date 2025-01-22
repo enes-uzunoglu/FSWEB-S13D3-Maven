@@ -58,6 +58,8 @@ public class Person {
         System.out.println(enes);
         Person emrah = new Person("Emrahh","Uzunoğlu",35,true,Gender.MALE,35000);
         System.out.println(emrah);
+        System.out.println(emrah);
     }
+
 
 }

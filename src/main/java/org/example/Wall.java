@@ -36,5 +36,6 @@ public class Wall {
         System.out.println("width= " + bedroom.getWidth());
         System.out.println("height= " + bedroom.getHeight());
         System.out.println("area= " + bedroom.getArea());
+        System.out.println("area= " + bedroom.getArea());
     }
 }
