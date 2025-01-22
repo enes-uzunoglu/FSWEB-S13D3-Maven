@@ -12,7 +12,7 @@ Proje sayımız ilerledikçe proje yönetimimizi kolaylaştırmak adına projele
 ### Person Sınıfı
 
 * org.example paketi altında ```Person``` isimli bir sınıf tanımlayınız.
-* Sınıf için 3 tane ```instance variable``` tanımlayınız. 
+* Sınıf için 3 tane ```instance variable``` tanımlayınız.
 * ```firstname``` String olmalı, ```lastName``` String olmalı ```age``` int olmalı.
 * Kendiniz Person isimli bir sınıfta olmasını isteyeceğiniz 3 adet daha ```instance variable``` ekleyiniz.
 * Bu sınıf için firstname, lastname ve age değerlerini alabileceğiniz bir ```constructor``` tanımlayınız.
